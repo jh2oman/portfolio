@@ -1,0 +1,37 @@
+<template name="cover">
+	{{#each companies}}
+			{{#if url name}}
+	<div class="cover-letter">
+		<span class="glyphicon glyphicon-remove exit-card"></span>
+		
+		<div class="sectionTitle cover-title">
+    	<h1>{{title}}</h1>
+			<div class="square"></div>
+		</div>
+		<p>{{paragraph}}<br><br>
+{{tableIntro}}
+		</p>
+		<table style="width:100%">
+			<tr>
+				<th class="left-col">{{jobExp}}</th>
+		    	<th>{{myExp}}</th> 
+			</tr>
+			{{#each pair}}
+		  <tr>
+		    <td class="left-col">"{{requirement}}"</td>
+		    <td>{{qualification}}</td> 
+		  </tr>
+		  {{/each}}
+		</table>
+
+
+		<p>{{closing}}
+			
+<br><br>Cheers,
+<br><br>Jacob Waterman
+</p>
+			
+	</div>
+	{{/if}}
+			{{/each}}
+		</template>

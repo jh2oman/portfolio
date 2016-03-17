@@ -1,0 +1,167 @@
+<head>
+  <title>Jacob Waterman - Personal Page - Portfolio</title>
+  <link rel="icon" sizes="16x16 32x32" href="/favicon.ico">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+{{> cover}}
+	<div id="preload" style="display:block"></div>
+	<nav>
+	<ul id="topMenu">
+	<li data-menuanchor="home"><a href="#home">Home</a></li>
+    <li data-menuanchor="about"><a href="#about">About</a></li>
+    <li data-menuanchor="projects"><a href="#projects">Projects</a></li>
+    <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div id="coverPhoto">
+
+    		<img class="logo-home" src="/web-adjust.png">
+			<h1>Jacob Waterman</h1>
+			<div class="square"></div>
+			<p>University of Illinois, Web Developer, Adventurer</p>
+		</div>
+
+	<div id="fullpage">
+    <div class="section home-section">
+    	<a href="#" id="show-cover" class="floating" style="display:none;" >Cover Letter</a>
+    	<div class="scroll-down floating hidden-xs">
+    		<a href="#about">
+    		Scroll down for more<br>
+    		<span>&or;</span>
+    	</a>
+    	</div>
+    </div>
+    <div class="section about-section">
+    	<div class="section-seperator"></div>
+    	<div class="sectionTitle">
+    	<h1>About Me</h1>
+			<div class="square"></div>
+		</div>
+		<div class="row">
+
+			<div class="col-xs-4 pro-pic-col">
+				<img alt="Jacob Waterman" src="/jacob-waterman.jpg" class="pro-pic">
+			</div>
+			<div class="col-xs-8 about-paragraph">
+				<h3 class="headline">
+						B.S. Computer Engineering UIUC May 2016</h3>
+						<p>
+
+						Using HTML, CSS, and an expertly chosen selection of adorable puppy photos, I made my first website in the Spring of 2014. Since then I have become a passionate web developer. I gained extensive knowledge of JavaScript, created multiple web applications, and obtained a Web Development Internship where I was a finalist for <a class="inline-link" target="_blank" href="http://researchpark.illinois.edu/news/2015-intern-award-winners-named">Research Park's Most Valuable Intern</a>.<br><br>
+
+						I am set to graduate in May and am looking for a full time position in California. Feel free to take a look at my <a class="inline-link" href="#projects">Projects</a> and if you like what you see please don’t hesitate to contact me via my email at <a class="inline-link" href="mailto:jacobrwaterman@gmail.com">jacobrwaterman@gmail.com</a> 
+					</p>
+					<br><br>
+
+			</div>
+		</div>
+		<a id="resume-download" class="block-button" href="/waterman_jacob_resume.pdf" target="_blank">Download Resume</a>
+		<div class="scroll-down floating hidden-xs">
+    		<a href="#projects">
+    		See my Projects<br>
+    		<span>&or;</span>
+    	</a>
+    	</div>
+    </div>
+    <div class="section projects-section">
+    	<div class="section-seperator"></div>
+    	<div class="sectionTitle">
+    	<h1>Projects</h1>
+			<div class="square"></div>
+		</div>
+		<div class="row">
+
+			<div class="col-xs-12 col-sm-4">
+				<img class="project-pic hidden" alt="Jacob Waterman" src="/dow-picture.png">
+				<h3 class="project-title">ExposureVision</h3>
+				<span class="project-summary">Dow Chemical Internship</span>
+				<p class="project-paragraph">
+					ExposureVision is a web application that gives clients and stakeholders a modern user interface to monitor over 30,000 paint panels being tested worldwide. My biggest achievement was coding re-usable widgets for displaying customizable panel data for the main dashboard, which other developers were then able to use ‘out of the box’ in other parts of the application.
+				</p>
+				<a class="block-button visible-xs-inline-block" style="margin-bottom:50px;" href="https://www.youtube.com/watch?t=1&v=oo5beJvvj6g" target="_blank">Dow Promo Video</a>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<img class="project-pic hidden" alt="Jacob Waterman" src="/logo-web-adjust.png">
+				<h3 class="project-title">MapsPlay</h3>
+				<span class="project-summary">Personal Project</span>
+				<p class="project-paragraph">
+					MapsPlay is a game in which the user finds themselves in a random Google Street View instance around the world and must guess their location. I am especially proud of the Javascript in this application, which uses a Singleton based design pattern to make clean modular code. The application took me roughly 4 months to complete in my spare time, and is completely responsive on mobile browsers.
+				</p>
+				<div style="display:flex;flex-flow:row wrap; margin-bottom:50px;">
+				<a class="block-button visible-xs-inline-block" style="margin-bottom:50px;"  href="http://mapsplay.herokuapp.com/" target="_blank">Live Site</a>
+				<a class="small-block-button visible-xs-inline-block" style="margin-bottom:50px;"  href="https://github.com/jh2oman/mapsplay" target="_blank"><i class="fa fa-github-square"></i></a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<img class="project-pic hidden" alt="Jacob Waterman" src="/pinteresting-logo.png">
+				<h3 class="project-title ">Pinteresting</h3>
+				<span class="project-summary">Personal Project</span>
+				<p class="project-paragraph">
+					Pinteresting is a pinterest clone that I created in my spare time with Ruby on Rails. Some of the things I am most proud of with this application are the responsive design, MVC architecture, and management of user sessions. Recently I have used this site as an experiment with SEO and was able to get it to the front page of google for several of my key phrases.
+				</p>
+				<div style="display:flex;flex-flow:row wrap; ">
+				<a class="block-button visible-xs-inline-block"  style="margin-bottom:50px;"  href="http://jacobpinteresting.herokuapp.com/" target="_blank">Live Site</a>
+				<a class="small-block-button visible-xs-inline-block" style="margin-bottom:50px;"  href="https://github.com/jh2oman/pinteresting" target="_blank"><i class="fa fa-github-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="row hidden-xs">
+
+			<div class="col-xs-12 col-sm-4">
+				<a class="block-button" href="https://www.youtube.com/watch?t=1&v=oo5beJvvj6g" target="_blank">Dow Promo Video</a>
+			</div>
+			<div class="col-xs-12 col-sm-4" style="display:flex;flex-flow:row wrap;">
+				<a class="block-button" href="http://mapsplay.meteor.com/" target="_blank">Live Site</a>
+				<a class="small-block-button"  href="https://github.com/jh2oman/mapsplay" target="_blank"><i class="fa fa-github-square"></i></a>
+			</div>
+			<div class="col-xs-12 col-sm-4" style="display:flex;flex-flow:row wrap;">
+				<a class="block-button" href="http://jacobpinteresting.herokuapp.com/" target="_blank">Live Site</a>
+				<a class="small-block-button"  href="https://github.com/jh2oman/pinteresting" target="_blank"><i class="fa fa-github-square"></i></a>
+			</div>
+		</div>
+		<div class="scroll-down floating hidden-xs">
+    		<a href="#contact">
+    		Contact Me<br>
+    		<span>&or;</span>
+    	</a>
+    	</div>
+    </div>
+    <div class="section contact-section">
+    	<div class="section-seperator"></div>
+    	<div class="sectionTitle">
+    	<h1>Contact Me</h1>
+			<div class="square"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="contact-info">
+					<span class="contact-name">Jacob Waterman</span><br>
+				<a style="border-top:1px solid #e2e2e2;" href="mailto:jacobrwaterman@gmail.com">jacobrwaterman@gmail.com</a><br>
+				<a href="tel://1-314-471-1683">314-471-1683</a><br>
+				<a href="/waterman_jacob_resume.pdf" target="_blank">Resume</a>
+				<div class="social-media-contact">
+				<a href="https://github.com/jh2oman" target="_blank"><i class="fa fa-github-square"></i></a>
+				<a  href="https://www.linkedin.com/in/watermanjacob" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+</div>
+			</div>
+		</div>
+		</div>
+		<div class="scroll-down floating hidden-xs">
+    		<a href="#home">
+    			<span>&and;</span><br>
+    		Back to the top
+    		
+    	</a>
+    	</div>
+		<footer>
+     &copy; 2015 Jacob Waterman. All rights reserved.
+</footer>
+	</div>
+	
+</div>
+</body>
